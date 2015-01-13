@@ -15,8 +15,8 @@ xml demo:
 <tool id="CheckBuild">
         <type>cmd</type>
         <command>python action.py</command>
-        <description>¼ì²é°¢À­¶¡½¨¿â¶ËÎÊÌâ</description>
-        <!-- kvÐÎÊ½µÄÊý¾Ý·¢²¼ÓëÒÀÀµÉùÃ÷ -->
+        <description>检查建库端问题</description>
+        <!-- kv形式的数据发布与依赖声明 -->
         <depend_on>
             <key>Query</key>
             <key>SrcID</key>
