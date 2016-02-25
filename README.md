@@ -10,7 +10,8 @@ How to Use?
     cst -h
 3.new tools should be added in file master/tools and include xml file.
 xml demo:
-***************************************************************************************************
+
+```
 <?xml version="1.0" encoding="utf-8" ?>
 <tool id="CheckBuild">
         <type>cmd</type>
@@ -28,7 +29,8 @@ xml demo:
             <key>BuildFailureDetails</key>
         </publish>
 </tool>
-***************************************************************************************************
+```
+
 root node must be used <tool> and include <dependency> node.
 
 
